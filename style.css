@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Luckiest+Guy&family=Righteous&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(wp2570989.jpg) ;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color:#4F200D;
+    padding: 13px;
+    display: flex ;
+}
+
+.menunav{
+    display: flex;
+    margin-left: auto;
+    align-items: end;
+}
+
+.btn-login{
+    margin-left: 25px;
+    color: white;
+    background-color: darkgoldenrod;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+    width: 125px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home, .gallery, .contact {
+    margin-right: 50px;
+    font-size: x-large;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.search{
+    height: 35px;
+    border-radius: 5px;
+    width: 300px;
+    border: none;
+    margin-right: 100px;
+}
+
+fieldset{
+    background-color: transparent;
+    border: 1px solid;
+    border-color: whitesmoke;
+    margin: 10% auto;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0 , 8);
+}
+
+.headbox{
+    font-weight: bold;
+    font-family: Righteous;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 2%;
+}
+
+table{
+    width: 100%;
+    padding: 15px;
+    
+}
+
+.username{
+    font-family: Verdana;
+    margin-left: 5%;
+    margin-right: 35%;
+    border-bottom: 2px solid #4F200D;
+}
+
+#username{
+    height: 23px;
+    font-size: medium;
+    width: 98%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.password{
+    font-family: Verdana;
+    margin-left: 5%;
+    margin-right: 35%;
+    border-bottom: 2px solid #4F200D;
+}
+
+#password{
+    background: transparent;
+    outline: none;
+    border: none;
+    height: 23px;
+    font-size: medium;
+    width: 98%;
+}
+
+.button{
+    text-align: right;
+    margin-right: 5%;
+
+}
+
+#reset{
+    background-color: #4F200D;
+    border-radius: 5px;
+    margin-right: 5%;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submit{
+    background-color: #4F200D;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.dont_have_account{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.close{
+    display: flex;
+    background-color: #4F200D;
+    color: aliceblue;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin-left: 90%;
+    border-bottom-left-radius: 20px ;
+}
+
+.popup{
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    transform: scale(1);
+}
